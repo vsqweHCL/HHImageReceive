@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA930C2C1DD9F9EB00135BDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA930C2B1DD9F9EB00135BDA /* main.m */; };
+		DA930C2F1DD9F9EB00135BDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA930C2E1DD9F9EB00135BDA /* AppDelegate.m */; };
+		DA930C321DD9F9EB00135BDA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA930C311DD9F9EB00135BDA /* ViewController.m */; };
+		DA930C351DD9F9EB00135BDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA930C331DD9F9EB00135BDA /* Main.storyboard */; };
+		DA930C371DD9F9EB00135BDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA930C361DD9F9EB00135BDA /* Assets.xcassets */; };
+		DA930C3A1DD9F9EB00135BDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA930C381DD9F9EB00135BDA /* LaunchScreen.storyboard */; };
+		DA930C451DD9F9EB00135BDA /* HHImageReceiveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA930C441DD9F9EB00135BDA /* HHImageReceiveTests.m */; };
+		DA930C501DD9F9EB00135BDA /* HHImageReceiveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA930C4F1DD9F9EB00135BDA /* HHImageReceiveUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA930C411DD9F9EB00135BDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA930C1F1DD9F9EA00135BDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA930C261DD9F9EA00135BDA;
+			remoteInfo = HHImageReceive;
+		};
+		DA930C4C1DD9F9EB00135BDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA930C1F1DD9F9EA00135BDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA930C261DD9F9EA00135BDA;
+			remoteInfo = HHImageReceive;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA930C271DD9F9EA00135BDA /* HHImageReceive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HHImageReceive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA930C2B1DD9F9EB00135BDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA930C2D1DD9F9EB00135BDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DA930C2E1DD9F9EB00135BDA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DA930C301DD9F9EB00135BDA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DA930C311DD9F9EB00135BDA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DA930C341DD9F9EB00135BDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA930C361DD9F9EB00135BDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA930C391DD9F9EB00135BDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA930C3B1DD9F9EB00135BDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA930C401DD9F9EB00135BDA /* HHImageReceiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HHImageReceiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA930C441DD9F9EB00135BDA /* HHImageReceiveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHImageReceiveTests.m; sourceTree = "<group>"; };
+		DA930C461DD9F9EB00135BDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA930C4B1DD9F9EB00135BDA /* HHImageReceiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HHImageReceiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA930C4F1DD9F9EB00135BDA /* HHImageReceiveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHImageReceiveUITests.m; sourceTree = "<group>"; };
+		DA930C511DD9F9EB00135BDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA930C241DD9F9EA00135BDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA930C3D1DD9F9EB00135BDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA930C481DD9F9EB00135BDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA930C1E1DD9F9EA00135BDA = {
+			isa = PBXGroup;
+			children = (
+				DA930C291DD9F9EB00135BDA /* HHImageReceive */,
+				DA930C431DD9F9EB00135BDA /* HHImageReceiveTests */,
+				DA930C4E1DD9F9EB00135BDA /* HHImageReceiveUITests */,
+				DA930C281DD9F9EA00135BDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA930C281DD9F9EA00135BDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA930C271DD9F9EA00135BDA /* HHImageReceive.app */,
+				DA930C401DD9F9EB00135BDA /* HHImageReceiveTests.xctest */,
+				DA930C4B1DD9F9EB00135BDA /* HHImageReceiveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA930C291DD9F9EB00135BDA /* HHImageReceive */ = {
+			isa = PBXGroup;
+			children = (
+				DA930C2D1DD9F9EB00135BDA /* AppDelegate.h */,
+				DA930C2E1DD9F9EB00135BDA /* AppDelegate.m */,
+				DA930C301DD9F9EB00135BDA /* ViewController.h */,
+				DA930C311DD9F9EB00135BDA /* ViewController.m */,
+				DA930C331DD9F9EB00135BDA /* Main.storyboard */,
+				DA930C361DD9F9EB00135BDA /* Assets.xcassets */,
+				DA930C381DD9F9EB00135BDA /* LaunchScreen.storyboard */,
+				DA930C3B1DD9F9EB00135BDA /* Info.plist */,
+				DA930C2A1DD9F9EB00135BDA /* Supporting Files */,
+			);
+			path = HHImageReceive;
+			sourceTree = "<group>";
+		};
+		DA930C2A1DD9F9EB00135BDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA930C2B1DD9F9EB00135BDA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA930C431DD9F9EB00135BDA /* HHImageReceiveTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA930C441DD9F9EB00135BDA /* HHImageReceiveTests.m */,
+				DA930C461DD9F9EB00135BDA /* Info.plist */,
+			);
+			path = HHImageReceiveTests;
+			sourceTree = "<group>";
+		};
+		DA930C4E1DD9F9EB00135BDA /* HHImageReceiveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA930C4F1DD9F9EB00135BDA /* HHImageReceiveUITests.m */,
+				DA930C511DD9F9EB00135BDA /* Info.plist */,
+			);
+			path = HHImageReceiveUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA930C261DD9F9EA00135BDA /* HHImageReceive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA930C541DD9F9EB00135BDA /* Build configuration list for PBXNativeTarget "HHImageReceive" */;
+			buildPhases = (
+				DA930C231DD9F9EA00135BDA /* Sources */,
+				DA930C241DD9F9EA00135BDA /* Frameworks */,
+				DA930C251DD9F9EA00135BDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HHImageReceive;
+			productName = HHImageReceive;
+			productReference = DA930C271DD9F9EA00135BDA /* HHImageReceive.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA930C3F1DD9F9EB00135BDA /* HHImageReceiveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA930C571DD9F9EB00135BDA /* Build configuration list for PBXNativeTarget "HHImageReceiveTests" */;
+			buildPhases = (
+				DA930C3C1DD9F9EB00135BDA /* Sources */,
+				DA930C3D1DD9F9EB00135BDA /* Frameworks */,
+				DA930C3E1DD9F9EB00135BDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA930C421DD9F9EB00135BDA /* PBXTargetDependency */,
+			);
+			name = HHImageReceiveTests;
+			productName = HHImageReceiveTests;
+			productReference = DA930C401DD9F9EB00135BDA /* HHImageReceiveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA930C4A1DD9F9EB00135BDA /* HHImageReceiveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA930C5A1DD9F9EB00135BDA /* Build configuration list for PBXNativeTarget "HHImageReceiveUITests" */;
+			buildPhases = (
+				DA930C471DD9F9EB00135BDA /* Sources */,
+				DA930C481DD9F9EB00135BDA /* Frameworks */,
+				DA930C491DD9F9EB00135BDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA930C4D1DD9F9EB00135BDA /* PBXTargetDependency */,
+			);
+			name = HHImageReceiveUITests;
+			productName = HHImageReceiveUITests;
+			productReference = DA930C4B1DD9F9EB00135BDA /* HHImageReceiveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA930C1F1DD9F9EA00135BDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "HCL黄";
+				TargetAttributes = {
+					DA930C261DD9F9EA00135BDA = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					DA930C3F1DD9F9EB00135BDA = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = DA930C261DD9F9EA00135BDA;
+					};
+					DA930C4A1DD9F9EB00135BDA = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = DA930C261DD9F9EA00135BDA;
+					};
+				};
+			};
+			buildConfigurationList = DA930C221DD9F9EA00135BDA /* Build configuration list for PBXProject "HHImageReceive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA930C1E1DD9F9EA00135BDA;
+			productRefGroup = DA930C281DD9F9EA00135BDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA930C261DD9F9EA00135BDA /* HHImageReceive */,
+				DA930C3F1DD9F9EB00135BDA /* HHImageReceiveTests */,
+				DA930C4A1DD9F9EB00135BDA /* HHImageReceiveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA930C251DD9F9EA00135BDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA930C3A1DD9F9EB00135BDA /* LaunchScreen.storyboard in Resources */,
+				DA930C371DD9F9EB00135BDA /* Assets.xcassets in Resources */,
+				DA930C351DD9F9EB00135BDA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA930C3E1DD9F9EB00135BDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA930C491DD9F9EB00135BDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA930C231DD9F9EA00135BDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA930C321DD9F9EB00135BDA /* ViewController.m in Sources */,
+				DA930C2F1DD9F9EB00135BDA /* AppDelegate.m in Sources */,
+				DA930C2C1DD9F9EB00135BDA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA930C3C1DD9F9EB00135BDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA930C451DD9F9EB00135BDA /* HHImageReceiveTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA930C471DD9F9EB00135BDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA930C501DD9F9EB00135BDA /* HHImageReceiveUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA930C421DD9F9EB00135BDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA930C261DD9F9EA00135BDA /* HHImageReceive */;
+			targetProxy = DA930C411DD9F9EB00135BDA /* PBXContainerItemProxy */;
+		};
+		DA930C4D1DD9F9EB00135BDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA930C261DD9F9EA00135BDA /* HHImageReceive */;
+			targetProxy = DA930C4C1DD9F9EB00135BDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA930C331DD9F9EB00135BDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA930C341DD9F9EB00135BDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA930C381DD9F9EB00135BDA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA930C391DD9F9EB00135BDA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA930C521DD9F9EB00135BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA930C531DD9F9EB00135BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA930C551DD9F9EB00135BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HHImageReceive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zwhy.HHImageReceive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DA930C561DD9F9EB00135BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HHImageReceive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zwhy.HHImageReceive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DA930C581DD9F9EB00135BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HHImageReceiveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zwhy.HHImageReceiveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HHImageReceive.app/HHImageReceive";
+			};
+			name = Debug;
+		};
+		DA930C591DD9F9EB00135BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HHImageReceiveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zwhy.HHImageReceiveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HHImageReceive.app/HHImageReceive";
+			};
+			name = Release;
+		};
+		DA930C5B1DD9F9EB00135BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HHImageReceiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zwhy.HHImageReceiveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HHImageReceive;
+			};
+			name = Debug;
+		};
+		DA930C5C1DD9F9EB00135BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HHImageReceiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zwhy.HHImageReceiveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HHImageReceive;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA930C221DD9F9EA00135BDA /* Build configuration list for PBXProject "HHImageReceive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA930C521DD9F9EB00135BDA /* Debug */,
+				DA930C531DD9F9EB00135BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA930C541DD9F9EB00135BDA /* Build configuration list for PBXNativeTarget "HHImageReceive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA930C551DD9F9EB00135BDA /* Debug */,
+				DA930C561DD9F9EB00135BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA930C571DD9F9EB00135BDA /* Build configuration list for PBXNativeTarget "HHImageReceiveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA930C581DD9F9EB00135BDA /* Debug */,
+				DA930C591DD9F9EB00135BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA930C5A1DD9F9EB00135BDA /* Build configuration list for PBXNativeTarget "HHImageReceiveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA930C5B1DD9F9EB00135BDA /* Debug */,
+				DA930C5C1DD9F9EB00135BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA930C1F1DD9F9EA00135BDA /* Project object */;
+}
