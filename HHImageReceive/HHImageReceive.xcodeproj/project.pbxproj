@@ -15,6 +15,9 @@
 		DA930C3A1DD9F9EB00135BDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA930C381DD9F9EB00135BDA /* LaunchScreen.storyboard */; };
 		DA930C451DD9F9EB00135BDA /* HHImageReceiveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA930C441DD9F9EB00135BDA /* HHImageReceiveTests.m */; };
 		DA930C501DD9F9EB00135BDA /* HHImageReceiveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA930C4F1DD9F9EB00135BDA /* HHImageReceiveUITests.m */; };
+		DA930C601DD9FB2500135BDA /* HHImageReceiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA930C5F1DD9FB2500135BDA /* HHImageReceiveViewController.m */; };
+		DA930C631DD9FB4F00135BDA /* HHImageReceiveViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA930C621DD9FB4F00135BDA /* HHImageReceiveViewCell.m */; };
+		DA930C661DD9FB6C00135BDA /* UIImage+Scale.m in Sources */ = {isa = PBXBuildFile; fileRef = DA930C651DD9FB6C00135BDA /* UIImage+Scale.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		DA930C4B1DD9F9EB00135BDA /* HHImageReceiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HHImageReceiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA930C4F1DD9F9EB00135BDA /* HHImageReceiveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHImageReceiveUITests.m; sourceTree = "<group>"; };
 		DA930C511DD9F9EB00135BDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA930C5E1DD9FB2500135BDA /* HHImageReceiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHImageReceiveViewController.h; sourceTree = "<group>"; };
+		DA930C5F1DD9FB2500135BDA /* HHImageReceiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHImageReceiveViewController.m; sourceTree = "<group>"; };
+		DA930C611DD9FB4F00135BDA /* HHImageReceiveViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHImageReceiveViewCell.h; sourceTree = "<group>"; };
+		DA930C621DD9FB4F00135BDA /* HHImageReceiveViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHImageReceiveViewCell.m; sourceTree = "<group>"; };
+		DA930C641DD9FB6C00135BDA /* UIImage+Scale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Scale.h"; sourceTree = "<group>"; };
+		DA930C651DD9FB6C00135BDA /* UIImage+Scale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Scale.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +110,7 @@
 		DA930C291DD9F9EB00135BDA /* HHImageReceive */ = {
 			isa = PBXGroup;
 			children = (
+				DA930C5D1DD9FAC100135BDA /* ImageReceive */,
 				DA930C2D1DD9F9EB00135BDA /* AppDelegate.h */,
 				DA930C2E1DD9F9EB00135BDA /* AppDelegate.m */,
 				DA930C301DD9F9EB00135BDA /* ViewController.h */,
@@ -138,6 +148,19 @@
 				DA930C511DD9F9EB00135BDA /* Info.plist */,
 			);
 			path = HHImageReceiveUITests;
+			sourceTree = "<group>";
+		};
+		DA930C5D1DD9FAC100135BDA /* ImageReceive */ = {
+			isa = PBXGroup;
+			children = (
+				DA930C5E1DD9FB2500135BDA /* HHImageReceiveViewController.h */,
+				DA930C5F1DD9FB2500135BDA /* HHImageReceiveViewController.m */,
+				DA930C611DD9FB4F00135BDA /* HHImageReceiveViewCell.h */,
+				DA930C621DD9FB4F00135BDA /* HHImageReceiveViewCell.m */,
+				DA930C641DD9FB6C00135BDA /* UIImage+Scale.h */,
+				DA930C651DD9FB6C00135BDA /* UIImage+Scale.m */,
+			);
+			path = ImageReceive;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,7 +294,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA930C321DD9F9EB00135BDA /* ViewController.m in Sources */,
+				DA930C631DD9FB4F00135BDA /* HHImageReceiveViewCell.m in Sources */,
 				DA930C2F1DD9F9EB00135BDA /* AppDelegate.m in Sources */,
+				DA930C601DD9FB2500135BDA /* HHImageReceiveViewController.m in Sources */,
+				DA930C661DD9FB6C00135BDA /* UIImage+Scale.m in Sources */,
 				DA930C2C1DD9F9EB00135BDA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

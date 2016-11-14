@@ -7,16 +7,27 @@
 //
 
 #import "ViewController.h"
+#import "HHImageReceiveViewController.h"
 
 @interface ViewController ()
 
+@property (nonatomic, strong) HHImageReceiveViewController *imageSelectorVC;
 @end
 
 @implementation ViewController
-
+- (HHImageReceiveViewController *)imageSelectorVC
+{
+    if (_imageSelectorVC == nil) {
+        _imageSelectorVC = [[HHImageReceiveViewController alloc] init];
+    }
+    return _imageSelectorVC;
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    [self addChildViewController:self.imageSelectorVC];
+    [self.view addSubview:self.imageSelectorVC.view];
+    self.imageSelectorVC.view.frame = CGRectMake(0, self.view.frame.size.height - 350, self.view.frame.size.width, 350);
 }
 
 - (void)didReceiveMemoryWarning {
